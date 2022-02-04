@@ -15,7 +15,11 @@ jobs:
 
       - run:
           name: build the jekyll site
+add-links
           command: bundle exec jekyll build
+
+          command:  bundle exec jekyll build
+main
 
       - run:
           name: notify build is finished
